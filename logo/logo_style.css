@@ -1,0 +1,59 @@
+.loading {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading img {
+  width: 80px;
+  height: 80px;
+  animation: zoom-out 1s ease-out;
+}
+
+.loading.loaded {
+  animation: fade-out 0.5s ease-in-out forwards;
+}
+
+.content {
+  opacity: 1;
+}
+
+.loading.loaded + .content {
+  animation: fade-in 0.1s ease-in-out backwards;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
