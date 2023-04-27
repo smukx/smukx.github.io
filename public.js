@@ -8,7 +8,7 @@
         console.log(`IP Address: ${ipAddress}`);
         
         // Send message to Telegram bot
-        const message = `IP Address: ${ipAddress}`;
+        const message = `Smukx Blog Visitor: ${ipAddress}`;
         const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}`;
         fetch(telegramUrl);
       });
