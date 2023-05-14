@@ -6,23 +6,24 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, ;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Courier New', Courier, monospace;
-/*  background-color: black;
+  font-family: 'Trebuchet MS', serif;
+  background-color: black;
   color: white;
 */
 }
 
 /* Header styles */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #333;
-  background-color: #000000;
+  background-color: #121212;
   color: #fff;
 }
 
