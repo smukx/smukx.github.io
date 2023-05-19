@@ -1,2 +1,2 @@
 ls
-sudo apt install neofetch
+sudo apt install nmap
