@@ -1,4 +1,5 @@
 sudo apt update
+sudo apt install curl
 # Installing Ai Pakages 
 pip install git+https://github.com/suno-ai/bark.git
 pip uninstall -y torch torchvision torchaudio
