@@ -1,0 +1,47 @@
+--------------------------------------------------------------------
+LFS v6.11
+--------------------------------------------------------------------
+&nbsp;
+Press [ESC] to exit
+&nbsp;
+<span id="a">\\Root\TriX-07&gt;</span><span id="b">login <!-- GehfgZrQrkLbhUnirGbGehfgZrGurerfAbJnlLbhErtergVg -->_SMUKX_#07</span>
+&nbsp;
+Enter Your Username: _SMUKX_
+Enter Your Password: *********
+<span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBub3c</span>
+Login session was successful. <span id="k">Welcome, _SMUKX_!</span>
+Type [cmds] to see all of the available commands.
+&nbsp;
+<span id="a">\\Root\TriX-07\_SMUKX_&gt;</span><!-- A Wttx Vwvpz Rwjgpb Kwm --><span id="b">view Info.txt</span>
+Receiving submitted information...
+<span style="color: transparent">YmFuaSBhZGFtIGF6YXllIHlla2RpZ2FyYW5kL CBrZSBkYXIgYWZhcmluZXNoIHplIHllayBnb2hhcmFuZAp jaG8gb3p2aSBiZSBkYXJkIGF2YXJhZCByb296ZWdhciwgZGVn YXIgb3p2IGhhcmEgbmFtYW5hZCBnaGFyYXI</span>
+Hello , My Name is Smukx , Im a Hacker , Pentester and Gamer . When i find the thrill of breaking into systems. Finding undiscovred vulnerabilities , i was able to seek things as it was denied to force .
+I code to invert things to break things . Follow my <span id="c"><a href="https://github.com/Whitecat18" target="_blank"> GitHub Profile</a></span> to see what i code . 
+I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@smukx" target="_blank"> Medium Blog </a></span> , You can check that out .
+&nbsp
+<span id="a">\\Root\TriX-07\_SMU7X_&gt;</span><span id="b"><!-- https://cdn.discordapp.com/attachments/476322512129622016/950712219581169674/Mazmaz-1.mp4 | Also, if you've ever wondered what my avatar does refer to, it's the Cultist from EtD -->view prof.json</span>
+{
+    UE4/5: "<span id="c">Hacker | Programmer | Network Administrator  </span>",
+    Hacking OS: "<span id="c">Arch and Debian </span>",
+    Program: "<span id="c"> C , Python , Js , PS1 </span>",
+    Osint: "<span id="c"> Good at Guessing People</span>",
+    25x9: BIT0aZcOkI_AezAKmI_49tBzRbvC2
+}
+&nbsp;
+<span id="a">\\Root\TriX-07\_SMUKX_&gt;</span><span id="b"><!-- https://cdn.discordapp.com/attachments/950628322067480606/954039601725599844/connection_terminated_reza.mp4 | Btw, I change my profile avatar each season -->view links.json</span>
+{
+    Website: "<span id="c"><a href="https://smukx.github.io/"> _SMUKX_#07</span>",
+    GitHub: "<span id="c"><a href="https://github.com/Whitecat18" target="_blank"> Whitecat18</span>",
+    Email: "<span id="c"> smukx@duck.com </span>",
+    Blog: "<span id="c"><a href="https://medium.com/@smukx" target="_blank"> Medium Blog </a></span> ",
+}
+&nbsp;
+<span id="a">\\Root\TriX-07\_SMU7X_&gt;</span><span id="b">cat my_fear.txt</span>
+Dont Be a Script Kiddie
+&nbsp;
+
+<span id="a">\\Root\TriX-07\_SMU7X_&gt;</span><span id="b">logout</span>
+<span style="color: transparent">Mark, I still didn't know that you own the unusual ghastly gibus mt Dont Copy me !;</span>
+Successfully logged out! Hope you have a wonderful day on Lost!
+&nbsp;
+<span id="a">\\Root\TriX-07&gt;&nbsp;</span>
