@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------
-LFS v6.11
+LFS v11.3
 ---------------------------------------------------------------------------------
 &nbsp;
 Press [ESC] to exit
@@ -8,7 +8,7 @@ Press [ESC] to exit
 &nbsp;
 smukx@10.40.110.21's password: *******
 <br>
-Welcome to LFS 6.11 (GNU/Linux 5.19.0-45-generic x86_64)
+Welcome to LFS 11.3 (GNU/Linux 5.19.0-45-generic x86_64)
 
 <span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBub3c</span>
 Login session was successful. <span id="k">Welcome, _SMUKX_!</span>
