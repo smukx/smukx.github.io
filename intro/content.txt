@@ -6,7 +6,8 @@ Press [ESC] to exit
 &nbsp;
 <span id="a">\\Root\TriX-07&gt;</span><span id="b">ssh smukx@10.40.10.21 -p 6969 <!-- COPYING MY CONTENT GIVES YOU CANCER --> </span>
 &nbsp;
-smukx@10.40.110.21's password: *******
+<span style="color: transparent">YmFuaSBhZGFtIGF6YXllIHlla2RpZ2FyYW5kL </span>
+smukx@10.40.110.21's password: <span style="color: transparent"> AEZAKMIaacfhnsiliGILYBGIUG78og ashuon</span>*******
 <br>
 Welcome to LFS 11.3 (GNU/Linux 5.19.0-45-generic x86_64)
 
@@ -19,7 +20,7 @@ Receiving submitted information...
 <span style="color: transparent">YmFuaSBhZGFtIGF6YXllIHlla2RpZ2FyYW5kL CBrZSBkYXIgYWZhcmluZXNoIHplIHllayBnb2hhcmFuZAp jaG8gb3p2aSBiZSBkYXJkIGF2YXJhZCByb296ZWdhciwgZGVn YXIgb3p2IGhhcmEgbmFtYW5hZCBnaGFyYXI</span>
 Hey there, I'm the one they call Smukx , An Hacker, Pentester and an Gamer . When i find the thrill of breaking into systems. Finding undiscovred vulnerabilities, As i was able to seek things as it was denied to force .I code to invert things when time comes it can be used as Reverse ;)  Follow my <span id="c"><a href="https://github.com/Whitecat18" target="_blank"> GitHub Profile</a></span> to see what i code . I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@smukx" target="_blank"> Medium Blog </a></span> , You can check that out . I Have chosen the path where Dark Lives the most , not even one sees that side of mine... 
 &nbsp
-<span id="a">smukx@trix:~$ </span><span id="b"><!-- ALSO, IF YOU FOLLOW MY PATH . IT LEADS TO PAIN AND SUFFER = DEATH ! -->view prof.json</span>
+<span id="a">smukx@trix:~$ </span><span id="b"><!-- ALSO, IF YOU FOLLOW MY PATH . IT LEADS TO PAIN AND SUFFER = DEATH ! -->view prof.json</span><span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiB</span>
 // Info..
 {
     UE4/5: "<span id="c">Hacker | Programmer | Network Administrator  </span>",
@@ -29,7 +30,7 @@ Hey there, I'm the one they call Smukx , An Hacker, Pentester and an Gamer . Whe
     25x9: BIT0aZcOkI_AezAKmI_49tBzRbvC2
 }
 &nbsp;
-<span id="a">smukx@trix:~$ </span><span id="b"><!-- I DO HACK CLG DATAS -->less links.json</span>
+<span id="a">smukx@trix:~$ </span><span id="b"><!-- I DO HACK CLG DATAS -->less links.json</span><span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBu</span>
 // Links..
 {
     Website: "<span id="c"><a href="https://smukx.github.io/home.html"> _SMUKX_#07_</span>",
@@ -39,7 +40,7 @@ Hey there, I'm the one they call Smukx , An Hacker, Pentester and an Gamer . Whe
 }
 &nbsp;
 <span id="a">smukx@trix:~$ </span><span id="b">less my_fear.txt</span>
-Being an Script Kiddie . Be Unique and Stay Anonymous ..
+Being an Script Kiddie gives me sick . Be Unique and Stay Anonymous ..
 &nbsp;
 
 <span id="a">smukx@trix:~$ </span><span id="b">logout</span>
