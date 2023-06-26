@@ -4,22 +4,29 @@ LFS v6.11
 &nbsp;
 Press [ESC] to exit
 &nbsp;
-<span id="a">\\Root\TriX-07&gt;</span><span id="b">login <!-- GehfgZrQrkLbhUnirGbGehfgZrGurerfAbJnlLbhErtergVg -->_SMUKX_#07</span>
+<span id="a">\\Root\TriX-07&gt;</span><span id="b">ssh smukx@10.40.10.21 -p 6969 <!-- COPYING MY CONTENT GIVES YOU CANCER --> </span>
 &nbsp;
-Enter Your Username: _SMUKX_
-Enter Your Password: *********
+The authenticity of host '10.40.10.21 (10.40.10.21)' can't be established.
+ED25519 key fingerprint is SHA256:ET6cyuLcMRf3yLJFkJwyLyZkaL8hVAmYFrLzAj3CMq0.
+
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.40.12.208' (ED25519) to the list of known hosts.
+smukx@10.40.110.21's password: *******
+
+Welcome to LFS 6.11 (GNU/Linux 5.19.0-45-generic x86_64)
+ <span id="k">Welcome, Hello _SMUKX_!</span>
 <span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBub3c</span>
 Login session was successful. <span id="k">Welcome, _SMUKX_!</span>
 Type [help] to see all of the available commands.
 &nbsp;
-<span id="a">\\Root\TriX-07\_SMUKX_&gt;</span><!-- A Wttx Vwvpz Rwjgpb Kwm --><span id="b">bash Info.sh</span>
+<span id="a">smukx@trix:~$;</span><!-- --><span id="b">bash Info.sh</span>
 Receiving submitted information...
 <span style="color: transparent">YmFuaSBhZGFtIGF6YXllIHlla2RpZ2FyYW5kL CBrZSBkYXIgYWZhcmluZXNoIHplIHllayBnb2hhcmFuZAp jaG8gb3p2aSBiZSBkYXJkIGF2YXJhZCByb296ZWdhciwgZGVn YXIgb3p2IGhhcmEgbmFtYW5hZCBnaGFyYXI</span>
 Hello , My Name is Smukx , Im a Hacker , Pentester and Gamer . When i find the thrill of breaking into systems. Finding undiscovred vulnerabilities , i was able to seek things as it was denied to force .
 I code to invert things to break things . Follow my <span id="c"><a href="https://github.com/Whitecat18" target="_blank"> GitHub Profile</a></span> to see what i code . 
 I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@smukx" target="_blank"> Medium Blog </a></span> , You can check that out .
 &nbsp
-<span id="a">\\Root\TriX-07\_SMUKX_&gt;</span><span id="b"><!-- https://cdn.discordapp.com/attachments/476322512129622016/950712219581169674/Mazmaz-1.mp4 | Also, if you've ever wondered what my avatar does refer to, it's the Cultist from EtD -->view prof.json</span>
+<span id="a">smukx@trix:~$&gt;</span><span id="b"><!-- ALSO IF YOU FOLLOW MY PATH . IT LEADS TO PAIN AND SUFFER = DEATH ! -->view prof.json</span>
 // Info..
 {
     UE4/5: "<span id="c">Hacker | Programmer | Network Administrator  </span>",
@@ -29,7 +36,7 @@ I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@
     25x9: BIT0aZcOkI_AezAKmI_49tBzRbvC2
 }
 &nbsp;
-<span id="a">\\Root\TriX-07\_SMUKX_&gt;</span><span id="b"><!-- https://cdn.discordapp.com/attachments/950628322067480606/954039601725599844/connection_terminated_reza.mp4 | Btw, I change my profile avatar each season -->less links.json</span>
+<span id="a">smukx@trix:~$&gt;</span><span id="b"><!-- I DO HACK CLG DATAS -->less links.json</span>
 
 {
     Website: "<span id="c"><a href="https://smukx.github.io/home.html"> _SMUKX_#07_</span>",
@@ -38,12 +45,12 @@ I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@
     Blog: "<span id="c"><a href="https://medium.com/@smukx" target="_blank"> Medium Blog </a></span> ",
 }
 &nbsp;
-<span id="a">\\Root\TriX-07\_SMU7X_&gt;</span><span id="b">less my_fear.txt</span>
+<span id="a"smukx@trix:~$&gt;</span><span id="b">less my_fear.txt</span>
 Dont Be a Script Kiddie . Be Unique and Stay Anonymous 
 &nbsp;
 
-<span id="a">\\Root\TriX-07\_SMU7X_&gt;</span><span id="b">logout</span>
-<span style="color: transparent">Mark, I still didn't know that you own the unusual ghastly gibus mt Dont Copy me !;</span>
+<span id="a">smukx@trix:~$&gt;</span><span id="b">logout</span>
+<span style="color: transparent">Connection to 10.40.10.21 closed. ;</span>
 Successfully logged out! Hope you have a wonderful day on Lost!
 &nbsp;
 <span id="a">\\Root\TriX-07&gt;&nbsp;</span>
