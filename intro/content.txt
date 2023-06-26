@@ -7,7 +7,7 @@ Press [ESC] to exit
 <span id="a">\\Root\TriX-07&gt;</span><span id="b">ssh smukx@10.40.10.21 -p 6969 <!-- COPYING MY CONTENT GIVES YOU CANCER --> </span>
 &nbsp;
 <span style="color: transparent">YmFuaSBhZGFtIGF6YXllIHlla2RpZ2FyYW5kL </span>
-smukx@10.40.110.21's password: <span style="color: transparent"> AEZAKMIaacfhnsiliGILYBGIUG78og ashuon</span>*******
+smukx@10.40.110.21's password: <span style="color: transparent"> its time to tell you that you are fucking gae</span>
 <br>
 Welcome to LFS 11.3 (GNU/Linux 5.19.0-45-generic x86_64)
 
