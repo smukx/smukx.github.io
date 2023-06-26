@@ -1,6 +1,6 @@
---------------------------------------------------------------------
+---------------------------------------------------------------------------------
 LFS v6.11
---------------------------------------------------------------------
+---------------------------------------------------------------------------------
 &nbsp;
 Press [ESC] to exit
 &nbsp;
@@ -42,7 +42,7 @@ I have Explained some of my hacks via <span id="c"><a href="https://medium.com/@
 }
 &nbsp;
 <span id="a">smukx@trix:~$ </span><span id="b">less my_fear.txt</span>
-Dont Be a Script Kiddie . Be Unique and Stay Anonymous 
+Dont Be a Script Kiddie . Be Unique and Stay Anonymous ..
 &nbsp;
 
 <span id="a">smukx@trix:~$ </span><span id="b">logout</span>
