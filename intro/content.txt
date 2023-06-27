@@ -30,7 +30,7 @@ Hey there, I'm the one they call Smukx , An Hacker, Pentester and an Gamer . Whe
     25x9: BIT0aZcOkI_AezAKmI_49tBzRbvC2
 }
 &nbsp;
-<span id="a">smukx@trix:~$ </span><span id="b"><!-- I DO HACK CLG DATAS -->less links.json</span><span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBu</span>
+<span id="a">smukx@trix:~$ </span><span id="b"><!-- I DO HACK CLG . SO DONT TELL ME WHO ARE YOU -->less links.json</span><span style="color: transparent">WWVzIEknbSAxOSBhcyBvZiBu</span>
 // Links..
 {
     Website: "<span id="c"><a href="https://smukx.github.io/home.html"> _SMUKX_#07_</span>",
