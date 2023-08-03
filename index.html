@@ -12,12 +12,31 @@
     <div class="content">
       
 	    <br><br><br><br><br><br><br><br><br><br><br>
-	    <center>
-	    <h1>Redirecting Please wait</h1>
-      <p>User Verifying Please Wait</p>
-	<p>Smukx © 2023</p>
-	    </center>
-    </div>
+<center>
+
+<h1>Redirecting in <span id="timer">5</span></h1>
+
+  <script>
+    function startTimer() {
+      let seconds = 5;
+      const timerElement = document.getElementById("timer");
+      const interval = setInterval(() => {
+        seconds--;
+        timerElement.textContent = seconds;
+
+        if (seconds <= 0) {
+          clearInterval(interval);
+          timerElement.textContent = "...";
+        }
+      }, 1000);
+    }
+    window.onload = startTimer;
+  </script>
+<p>user verify</p>
+<h3>Smukx © 2023</h3>
+</center>
+</div>
+	  
     <script>
       window.onload = function() {
         setTimeout(function() {
@@ -25,6 +44,8 @@
         }, 1000);
       }
     </script>
+
+
   </body>
 </html>
 
