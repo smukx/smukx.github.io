@@ -91,8 +91,8 @@ body {
 }
 
 const phrases = [
-    'smukx',
-    'LEts Pwn',
+    '5mukx',
+    ' LEts Pwn\'..\'',
     'Loading ↺'
   ];
 
@@ -105,10 +105,10 @@ const phrases = [
       setTimeout(next, 800);
       counter = (counter + 1) % phrases.length;
 
-      if (phrases[counter] === 'LEts Pwn') {
+      if (phrases[counter] === ' LEts Pwn\'..\'') {
         setTimeout(() => {
           // Redirect to another page after "INSIGHT_X" animation
-          window.location.href = 'https://www.smukx.site';
+          window.location.href = './home.html';
         }, 2000); 
       }
     });
