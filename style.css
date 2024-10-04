@@ -10,7 +10,8 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-family: 'Trebuchet MS', serif;
-  background-color: black;
+  /* background-color: rgb(0, 0, 0); */
+  background-color: #161617;
   color: white;
 }
 
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #121212;
+  background-color: #0c0c0c;
   color: #fff;
 }
 
@@ -123,6 +124,9 @@ article {
   margin-bottom: 40px;
 }
 
+a {
+  text-decoration: none;
+}
 article h2 {
   font-size: 24px;
   font-weight: bold;
@@ -135,9 +139,20 @@ article h2 {
   margin-bottom: 20px;
 } */
 
+/* h2{
+  color: #b4e953;
+}
+
+h3{
+  color: #b4e953;
+} */
 article p {
   margin-bottom: 20;
 }
+
+/* p{
+  
+} */
 
 /* Footer styles */
 footer {
