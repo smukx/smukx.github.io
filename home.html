@@ -3,7 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMUKX'S Blog</title>
+  <title>Home | 5mukx</title>
+  <style>
+    #jobTitle {
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 3.5s steps(40, end);
+      color: #c091f5; /* Here's the color change to #c091f5 */
+      border-right: 0.15em solid rgb(255, 255, 255);
+      position: relative;
+    }
+      
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+  </style>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,7 +39,7 @@
         <li><a href="home.html">Home</a></li>
         <li><a href="cyberian.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="https://x.com/5mukx/highlights" target="_blank">Tweets</a></li>
       </ul>
     </nav>
   </header>
@@ -35,16 +54,66 @@
     </center>
       
       <!-- <p style="color:red"> Note : This is an clone of my website that runs on Git . Server temporary down . used git for few days</p> -->
-      
+      <br>
       <h3 style="color:red"> Legal Disclaimer</h3>
       <br>
-      <p>The techniques and tools discussed in my blog are meant to increase awareness and knowledge about cybersecurity and to help protect against cyber attacks. They should not be used for illegal or unethical activities. only for Education purposes only.</p><br>
+      <p>
+        The information you gather from this site, social accounts, blogs, all the techniques, proofs-of-concept code, or whatever else you may possibly find here,
+        are strictly for educational purposes. I do not condone the usage of anything you might gather from this blog or my videos for malicious purposes.
+      </p><br>
+
       <h2 style="color: #fa1212;" > Welcome </h2>
       <!-- <br> -->
-      <p>Welcome to my site nerds. Spread nerdism ;) ie knowledge to every folks who have interested in this field.</p>
+      <p>Hi!. I'm 5mukx. I am a <span id="jobTitle">----</span></p>
+      <script>
+        const titles = [
+            'Software Engineer.',
+            'Malware developer.',
+            'Red teamer.',
+        ];
+        let jobTitle = document.getElementById('jobTitle');
+        let titleIndex = 0;
+
+        // Reset the content to just the cursor
+        jobTitle.textContent = '|';
+
+        function typeText() {
+            const text = titles[titleIndex];
+            // Remove the cursor before typing
+            jobTitle.textContent = '';
+            let charIndex = 0;
+
+            function type() {
+                if (charIndex < text.length) {
+                    jobTitle.textContent += text.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, 50);
+                } else {
+                    setTimeout(deleteText, 2000); // Wait before deleting
+                }
+            }
+
+            function deleteText() {
+                if (jobTitle.textContent.length > 0) {
+                    jobTitle.textContent = jobTitle.textContent.slice(0, -1);
+                    setTimeout(deleteText, 50);
+                } else {
+                    titleIndex = (titleIndex + 1) % titles.length;
+                    jobTitle.textContent = '|'; // Reset the cursor
+                    setTimeout(typeText, 500); // Wait before typing again
+                }
+            }
+
+            type();
+        }
+
+        // Start the typing effect after a short delay to show the initial cursor
+        setTimeout(typeText, 1000); // Delay of 1 second to see the initial 'a|'
+    </script>
+    <br>
       <p>I will post my latest articles, tutorials, and case studies. Here you can Find my <a href="https://github.com/Whitecat18" style="color:yellow;" > tools</a> and <a href="https://github.com/Whitecat18" style="color:yellow;" > projects</a> that i have been doing. 
         
-        Feel Free to use it and give me suggestions.</p>
+        Feel Free to use it and give me suggestions. Visit <a href ="./about.html" style="color: yellow;" >About</a> Section to know more about me</p>
       <br>
       <a href="https://twitter.com/5mukx?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @5mukx</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <br>
@@ -55,7 +124,7 @@
         <a href="https://github.com/Whitecat18" target="_blank" style="color:greenyellow;" >Github</a> &nbsp;
         <a href="https://twitter.com/" target="_blank" style="color:greenyellow;" >Twitter</a> <br>
         <a href="./about.html" style="color:greenyellow;" > AboutMe</a> &nbsp;
-        <a href="./tweets.html" style="color: greenyellow;" > Tweets</a> 
+        <a href="https://x.com/5mukx/highlights" style="color: greenyellow;" > Tweets</a> 
       </center>
       <br>
       <br>
