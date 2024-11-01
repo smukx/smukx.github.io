@@ -5,33 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMUKX'S Blog</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add this to your CSS */
+    body {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .loaded {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="images/yacine.png" height="30" alt="SMUKX logo">
-      <h2><a href="./tweets.html" style="color: inherit; text-decoration: none;">&nbsp;Smukx</a></h2>
-    </div>
-    <button class="nav-toggle" aria-label="toggle navigation">
-      <span class="hamburger"></span>
-    </button>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="cyberian.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
-      </ul>
-    </nav>
+    <!-- Your header content -->
   </header>
   <main>
-    <h4> Tweets are Loading ⟳</h4>
-    <a class="twitter-timeline" href="https://twitter.com/5mukx?ref_src=twsrc%5Etfw">Tweets by 5mukx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </main>
+    <h4 id="loadingMessage">Tweets are Loading ⟳</h4>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/5mukx?ref_src=twsrc%5Etfw">Tweets by 5mukx</a> 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</main>
+
   <footer>
-    <h6>Copyright &copy; Smukx 2024</h6>
+    <!-- Your footer content -->
   </footer>
-  <script src="script.js"></script>
-  <script src="public.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var loadingMessage = document.getElementById('loadingMessage');
+      
+      // Fade out the loading message after 5 seconds
+      setTimeout(function() {
+        loadingMessage.style.transition = 'opacity 0.5s';
+        loadingMessage.style.opacity = '0';
+        setTimeout(function() {
+          loadingMessage.style.display = 'none';
+        }, 500); // Complete fade out after 0.5 more seconds
+      }, 5000); // 5000 milliseconds = 5 seconds
+  
+    
+      twttr.ready(function (twttr) {
+        twttr.widgets.load(
+          document.querySelector('.twitter-timeline')
+        ).then(function (el) {
+          // If the widget loads before 5 seconds, fade out immediately
+          loadingMessage.style.transition = 'opacity 0.5s';
+          loadingMessage.style.opacity = '0';
+          setTimeout(function() {
+            loadingMessage.style.display = 'none';
+          }, 500);
+        });
+      });
+    });
+  </script>
 </body>
 </html>
