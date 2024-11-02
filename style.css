@@ -275,10 +275,13 @@ footer p {
   font-size: 12px; /* Smaller font size */
 }
 
+/* read more  */
+
+/*  */
 .read-more {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 0px 10px;
   background-color: #b4e953;
   color: #000;
   text-decoration: none;
@@ -380,4 +383,17 @@ footer p {
 
 .popup-content h3 {
   color: #8a4af3; /* Match your site's color scheme */
+}
+
+
+/* Blog Post box */
+.blog-post .blog-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-post .read-more {
+  margin-top: 10px; /* Adjust as needed */
+  align-self: flex-start; /* This ensures the button aligns with the top of the tags if they wrap */
 }
