@@ -15,9 +15,9 @@
     <nav>
       <ul class="nav-list">
         <li><a href="home.html">Home</a></li>
-        <li><a href="cyberian.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cyberian.html">Projects</a></li>
       </ul>
     </nav>
   </header>
@@ -25,25 +25,27 @@
     <article>
         <h2>About Me</h2>
         <center>
-          <img src="https://animesher.com/orig/1/111/1119/11198/animesher.com_book-gif-read-1119852.gif" alt="Intro" style="width: 35%;">
+          <img src="https://animesher.com/orig/1/111/1119/11198/animesher.com_book-gif-read-1119852.gif" height="250">
+        </center>
+
+        <div id="disclaimer-popup" class="popup">
+          <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('disclaimer-popup')">&times;</span>
+            <h3>Legal Disclaimer</h3>
+            <p>The information you gather from this site, social accounts, blogs, all the techniques, proofs-of-concept code, or whatever else you may possibly find here, are strictly for educational purposes. I do not condone the usage of anything you might gather from this blog or my videos for malicious purposes.</p>
+            <!-- <button onclick="closePopup('disclaimer-popup')">Close</button> -->
+          </div>
+        </div>
+        
+        <br>
+        <center>
+        <p>Hello friend, your friendly neighborhood 5mukx here. My name is Kavin, i am 20 years old who's really into security stuff like red teaming and making malware. When I'm not coding, i am engaged with cloud activities like deployment and scaling, Full stack development.</p>
         </center>
         <br>
-        <p>I am a 20 y/0 guy who just interested in Security (Red Teaming and Malware Development)</p>
-        <p> The roles i do and have experienced:  Malware Developer, RedTeaming, Network Analyst , Linux Enthusiastic. But Still a Noobie guy.</p><br>
-        
-        <p> And Mainly i dont show off or talk about my skills anywhere to people's so they dont know who i am really are. Show your Hacking Skills Where it should be shown , not for fucking Show </p>
-        <br>
+        <!-- <p>The roles I've taken on and experienced include being a Malware Developer, doing Red Team operations, working as a Network Analyst, and being a Linux Enthusiast. I also dabble in cloud deployment with things like IaaS, PaaS, and SaaS.</p>         -->
+         
         <h3>Some Language and skills im familar with: <img src ="https://skillicons.dev/icons?i=rust,c,cpp,py,powershell,bash,arch,kali,windows,linux,bsd,docker,kubernetes,raspberrypi,vim" height="20" /></h3>
-        <br><h3> Some Inspired Quotes :</h3><br>
-      
-      <p>Talk is Cheap , Show me The Code ~ Linus Torvalds</p><br>
-      <p>In the realm of 1s and 0s, where logic weaves a tapestry of algorithms, the code whisperers dwell, decrypting the symphony of bytes, sculpting worlds from the ether ~ Smukx</p>
-      <br>
-        
-        <p>My Greatest Hackers : Linus Torvalds , Dennis Richie , Kevin Mitnick etc..</p>
         <br>
-
-      <p>Follow me to stay connected</p><br>
       <center>
         <a href="https://x.com/5mukx" target="_blank" style="color:greenyellow;"> Twitter</a> &nbsp;
         <a href="https://github.com/Whitecat18" target="_blank" style="color:greenyellow;"> Github</a> &nbsp;
@@ -57,6 +59,7 @@
       <h6>Copyright &copy; Smukx 2024</h6>
     </footer>
     <script src="script.js"></script>
+    <script src="popup_tab.js" ></script>
   </body>
   </html>
   

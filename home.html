@@ -3,12 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMUKX'S Blog</title>
+  <title>Home | 5mukx</title>
+  <style>
+    #jobTitle {
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 3.5s steps(40, end);
+      color: #c091f5; /* Here's the color change to #c091f5 */
+      border-right: 0.15em solid rgb(255, 255, 255);
+      position: relative;
+    }
+      
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    #framed-character {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%; /* Adjust as needed */
+      /* border-radius: 50%; Makes the image circular */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Optional: adds a shadow for depth */
+      border: 0px solid #c091f5;
+    }
+
+  </style>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div class="logo">
+    <div class="logo">  
       <img src="images/yacine.png" height="30" alt="SMUKX logo">
       <h2><a href="./home.html" style="color: inherit; text-decoration: none;">&nbsp;Smukx</a></h2>
     </div>
@@ -18,9 +48,9 @@
     <nav>
       <ul class="nav-list">
         <li><a href="home.html">Home</a></li>
-        <li><a href="cyberian.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="tweets.html">Tweets</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cyberian.html">Projects</a></li>
       </ul>
     </nav>
   </header>
@@ -29,33 +59,83 @@
       <h2>H3110 N3Rds</h2>
       
       <center>
-      <!-- <img src="https://raw.githubusercontent.com/smukx/smukx.github.io/main/images/smukx1920.jpg" height=450 /> -->
        <br><br>
-		<img src="images/yacine.png" height="325" />  
+		<img src="images/yacine.png" height="250" />  
     </center>
-      
+    
+    <!-- <center>
+      Replace the old image with this new one -->
+      <!-- <img id="framed-character" src="images/yacine_cropped.png"> -->
+    <!-- </center> -->
+
       <!-- <p style="color:red"> Note : This is an clone of my website that runs on Git . Server temporary down . used git for few days</p> -->
-      
-      <h3 style="color:red"> Legal Disclaimer</h3>
-      <br>
-      <p>The techniques and tools discussed in my blog are meant to increase awareness and knowledge about cybersecurity and to help protect against cyber attacks. They should not be used for illegal or unethical activities. only for Education purposes only.</p><br>
-      <h2 style="color: #fa1212;" > Welcome </h2>
+  
+
+      <!-- <h2 style="color: #fa1212;" > Welcome </h2> -->
       <!-- <br> -->
-      <p>Welcome to my site nerds. Spread nerdism ;) ie knowledge to every folks who have interested in this field.</p>
-      <p>I will post my latest articles, tutorials, and case studies. Here you can Find my <a href="https://github.com/Whitecat18" style="color:yellow;" > tools</a> and <a href="https://github.com/Whitecat18" style="color:yellow;" > projects</a> that i have been doing. 
+      <p>Hi! I'm 5mukx. I am a <span id="jobTitle">----</span></p>
+      <script>
+        const titles = [
+            'Software Engineer.',
+            'Malware developer.',
+            'Red teamer.',
+        ];
+        let jobTitle = document.getElementById('jobTitle');
+        let titleIndex = 0;
+
+        // Reset the content to just the cursor
+        jobTitle.textContent = '|';
+
+        function typeText() {
+            const text = titles[titleIndex];
+            // Remove the cursor before typing
+            jobTitle.textContent = '';
+            let charIndex = 0;
+
+            function type() {
+                if (charIndex < text.length) {
+                    jobTitle.textContent += text.charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, 50);
+                } else {
+                    setTimeout(deleteText, 2000); // Wait before deleting
+                }
+            }
+
+            function deleteText() {
+                if (jobTitle.textContent.length > 0) {
+                    jobTitle.textContent = jobTitle.textContent.slice(0, -1);
+                    setTimeout(deleteText, 50);
+                } else {
+                    titleIndex = (titleIndex + 1) % titles.length;
+                    jobTitle.textContent = '|'; // Reset the cursor
+                    setTimeout(typeText, 500); // Wait before typing again
+                }
+            }
+
+            type();
+        }
+
+        setTimeout(typeText, 1000); 
+    </script>
+    <br>
+      <!-- <p>I will post my latest articles, tutorials, and case studies. Here you can Find my <a href="https://github.com/Whitecat18" style="color:yellow;" > tools</a> and <a href="https://github.com/Whitecat18" style="color:yellow;" > projects</a> that i have been doing. 
         
-        Feel Free to use it and give me suggestions.</p>
+        Feel Free to use it and give me suggestions. Visit <a href ="./about.html" style="color: yellow;" >About</a> Section to know more about me</p>
+      <br> -->
+      <p>Here you can get my latest info about  <a href="blog.html" style="color:yellow;">blog posts</a>, articles, tutorials etc.. Additionally, you can explore my <a href="https://github.com/Whitecat18" style="color:yellow;">tools</a> and <a href="https://github.com/Whitecat18" style="color:yellow;">projects</a> on GitHub, 
+        where I deliver various phases of my work. To know about me, Please visit my <a href="about.html" style="color: yellow;" >About</a> Page.</p>
       <br>
-      <a href="https://twitter.com/5mukx?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @5mukx</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/5mukx?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @5mukx</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <br>
-      <center>
+      <center>  
       <h3>My Projects and Socials</h3>
       <br>
         <a href="cyberian.html" style="color:greenyellow;" >Projects</a> &nbsp;
         <a href="https://github.com/Whitecat18" target="_blank" style="color:greenyellow;" >Github</a> &nbsp;
         <a href="https://twitter.com/" target="_blank" style="color:greenyellow;" >Twitter</a> <br>
-        <a href="./about.html" style="color:greenyellow;" > AboutMe</a> &nbsp;
-        <a href="./tweets.html" style="color: greenyellow;" > Tweets</a> 
+        <a href="./about.html" style="color:greenyellow;" > About</a> &nbsp;
+        <a href="https://x.com/5mukx/highlights" style="color: greenyellow;" > Tweets</a> 
       </center>
       <br>
       <br>
@@ -66,5 +146,15 @@
   </footer>
   <script src="script.js"></script>
   <script src="public.js"></script>
+  <script>
+    document.querySelectorAll('h1').forEach(h1 => {
+      h1.addEventListener('click', function(e) {
+        // Here you would define what URL to open. For example:
+        const url = this.getAttribute('data-href') || 'your_default_url.html';
+        window.location.href = url;
+      });
+    });
+  </script>
+  
 </body>
 </html>

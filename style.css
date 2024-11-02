@@ -4,12 +4,22 @@
   margin: 0;
   padding: 0;
 }
-
+/* 
 body {
   font-family: Arial, sans-serif;
   font-size: 20px;
   line-height: 1.5;
   font-family: 'Trebuchet MS', serif;
+  
+  background-color: #161617;
+  color: white;
+} */
+
+body {
+  font-family: monospace, 'Courier New', Courier, monospace;
+  font-size: 20px;
+  line-height: 1.5;
+  
   /* background-color: rgb(0, 0, 0); */
   background-color: #161617;
   color: white;
@@ -187,4 +197,193 @@ footer p {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+/* BLOG STYLE CSS*/
+/* Blog Main and Post Styles */
+
+.blog-main {
+  background-color: #161617; /* Darker background */
+  color: #fff;
+  padding: 20px;
+  max-width: 960px; /* Wider max-width to match about.html */
+  margin: 0 auto;
+}
+
+
+/* New one */
+
+
+/* Old One*/
+.blog-post {
+  background-color: #161617; /* Assuming you want a black background for the post itself */
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.blog-post h1 {
+  text-decoration: none;
+  position: relative;
+  color: #c091f5;
+  text-decoration: none;
+  overflow: hidden; 
+}
+
+.blog-post h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  height: 1px;
+  background-color: #c091f5; 
+  transform: translateX(-100%);
+  transition: transform 0.25s ease-out;
+}
+
+.blog-post h1:hover::after {
+  transform: translateX(0);
+}
+
+
+.meta-info {
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.author-info {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center; /* Align items vertically */
+}
+
+.tag-label {
+  margin-right: 10px;
+  color: #fff; /* White color for the label text */
+  font-weight: bold; /* Make the label text bold */
+}
+
+.tag {
+  background-color: transparent;
+  color: #c091f5; /* Purple color for the tag text */
+  border: 1px solid #9b999f; /* Purple border around the tag, adjust color as needed */
+  padding: 2px 8px; /* Smaller padding for smaller tags */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Keeps the rounded corners */
+  font-size: 12px; /* Smaller font size */
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #b4e953;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #9fcf35;
+}
+
+/*Blog post author*/
+
+.blog-post-author {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.blog-post-author a {
+  text-decoration: none;
+  color: #c091f5; /* Matches the text color in your image */
+  font-weight: bold; /* Makes it bold */
+  display: flex;
+  align-items: center;
+}
+
+.blog-post-author a:hover {
+  text-decoration: underline; /* Underlines the text on hover */
+}
+
+.blog-post-author img {
+  border-radius: 50%; /* Make it circular */
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+/* Popup tab settings*/
+
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* Black with opacity */
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  position: relative;
+  background-color: #161617;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px; /* Added this line */
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-content button {
+  background-color: #8a4af3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-content h3 {
+  color: #8a4af3; /* Match your site's color scheme */
 }
