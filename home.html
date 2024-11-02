@@ -146,5 +146,15 @@
   </footer>
   <script src="script.js"></script>
   <script src="public.js"></script>
+  <script>
+    document.querySelectorAll('h1').forEach(h1 => {
+      h1.addEventListener('click', function(e) {
+        // Here you would define what URL to open. For example:
+        const url = this.getAttribute('data-href') || 'your_default_url.html';
+        window.location.href = url;
+      });
+    });
+  </script>
+  
 </body>
 </html>
